@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.Home_Vendor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffff"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F07F55"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginBottom="3dp"
+                        android:orientation="vertical">
+
+                        <com.mikhaellopez.circularimageview.CircularImageView
+                            android:id="@+id/vendor_img"
+                            android:layout_width="110dp"
+                            android:layout_height="121dp"
+                            android:layout_marginTop="6sp"
+                            android:padding="15dp"
+                            android:src="@drawable/app_logo"
+                            app:siBorderColor="#F5EFEF"
+                            app:siBorderWidth="6dp"
+                            app:siRadius="6dp"
+                            app:siSquare="true" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Vendor Name"
+                            android:layout_marginTop="-2dp"
+                            android:textSize="20sp"
+                            android:id="@+id/ven_name"
+                            android:textStyle="bold"
+                            android:textColor="#ffff"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ven_profile_heading"
+                            android:textSize="15sp"
+                            android:layout_marginTop="-3sp"
+                            android:textStyle="bold"
+                            android:textColor="#ffff"/>
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_height="35dp"
+                        android:layout_width="match_parent"
+                        android:background="#F07F55"/>
+
+                    <androidx.viewpager.widget.ViewPager
+                        android:id="@+id/viewPager"
+                        android:layout_height="200sp"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="start"
+                        android:paddingStart="40dp"
+                        android:paddingEnd="40dp"
+                        android:overScrollMode="never"
+                        android:clipToPadding="false"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp"
+                    android:background="#EEEEEE"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:cardCornerRadius="7sp"
+                        app:cardElevation="7sp"
+                        android:elevation="7dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:padding="5sp"
+                                android:background="@drawable/user_address"
+                                android:id="@+id/order_details">
+
+
+                                <ImageView
+                                    android:layout_width="90sp"
+                                    android:layout_height="70sp"
+                                    android:layout_gravity="start"
+                                    android:padding="4sp"
+                                    android:scaleType="fitXY"
+                                    android:id="@+id/ven_category_img"
+                                    android:src="@drawable/man"/>
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="4sp"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical">
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="horizontal">
+
+                                            <!--<ImageView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:paddingRight="4sp"
+                                                android:src="@drawable/ic_fiber_manual_record_black_24dp"/>-->
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:textSize="15sp"
+                                                android:textColor="#000"
+                                                android:textStyle="bold"
+                                                android:drawablePadding="3sp"
+                                                android:drawableLeft="@drawable/ic_fiber_manual_record_black_24dp"
+                                                android:text="@string/ven_skill"/>
+
+                                        </LinearLayout>
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Category"
+                                            android:layout_marginTop="-4sp"
+                                            android:id="@+id/ven_category"
+                                            android:textColor="#ff4500"
+                                            android:layout_marginLeft="23sp"
+                                            android:textSize="14sp" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="4sp"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="horizontal">
+
+                                            <!--<ImageView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:paddingRight="4sp"
+                                                android:src="@drawable/ic_fiber_manual_record_black_24dp"/>-->
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:textSize="15sp"
+                                                android:textColor="#000"
+                                                android:drawablePadding="3sp"
+                                                android:drawableLeft="@drawable/ic_fiber_manual_record_black_24dp"
+                                                android:textStyle="bold"
+                                                android:text="@string/ven_sub_skill"/>
+
+                                        </LinearLayout>
+
+                                        <TextView
+                                            android:id="@+id/ven_sub_category"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="23sp"
+                                            android:layout_marginTop="-4sp"
+                                            android:text="Sub Category"
+                                            android:textColor="#ff4500"
+                                            android:textSize="14sp" />
+                                    </LinearLayout>
+
+
+
+
+
+                                </LinearLayout>
+
+
+
+
+
+                            </LinearLayout>
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:background="#EEEEEE"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:orientation="vertical">
+
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="15sp"
+                                        android:textColor="#000"
+                                        android:textStyle="bold"
+                                        android:drawablePadding="3sp"
+                                        android:text="@string/ven_experience"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Not defined"
+                                        android:layout_marginTop="-4sp"
+                                        android:id="@+id/experiance_time"
+                                        android:textColor="#ff4500"
+                                        android:layout_marginLeft="5sp"
+                                        android:textSize="14sp" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="12dp"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="15sp"
+                                        android:textColor="#000"
+                                        android:textStyle="bold"
+                                        android:drawablePadding="3sp"
+                                        android:text="@string/rating"/>
+
+                                    <RatingBar
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Not defined"
+                                        android:numStars="5"
+                                        android:layout_marginTop="-4sp"
+                                        android:id="@+id/ratings"
+                                        android:textColor="#ff4500"
+                                        android:textSize="14sp" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingBottom="10dp"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textSize="15sp"
+                                        android:textColor="#000"
+                                        android:textStyle="bold"
+                                        android:layout_gravity="bottom"
+                                        android:layout_marginTop="15sp"
+                                        android:drawablePadding="3sp"
+                                        android:text="@string/ven_exper_image"/>
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="160dp"
+                                        android:src="@drawable/ic_camera_alt_black_24dp"
+                                        android:scaleType="fitXY"
+                                        android:layout_gravity="bottom"
+                                        android:layout_marginTop="5sp"
+                                        android:layout_marginRight="21sp"
+                                        android:layout_marginLeft="21sp"
+                                        android:id="@+id/home_exp_image"/>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

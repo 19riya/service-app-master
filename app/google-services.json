@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "647866341476",
+    "firebase_url": "https://urbanproject-3413f.firebaseio.com",
+    "project_id": "urbanproject-3413f",
+    "storage_bucket": "urbanproject-3413f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647866341476:android:521cbba874b2fbdf006771",
+        "android_client_info": {
+          "package_name": "com.hrproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647866341476-t8a6ge6o42k1rmo8m9k42on8apm94rg3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hrproject",
+            "certificate_hash": "7f70453e77c7a8101b96ea2fa2902d672ca78859"
+          }
+        },
+        {
+          "client_id": "647866341476-qhtss6b2f57d0j14g65j5vr54v05g72h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpgmgAomIfWA0vxlC-TC45-z9QtMt2U_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647866341476-qhtss6b2f57d0j14g65j5vr54v05g72h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

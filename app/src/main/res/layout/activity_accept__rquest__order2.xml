@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/match_otp"
+    android:background="#ffff"
+    tools:context=".Activities.Vendor.Accept_Rquest_Order2">
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+      <com.google.android.material.card.MaterialCardView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          app:cardCornerRadius="6dp"
+          android:id="@+id/cardView"
+          android:elevation="5dp"
+          app:cardMaxElevation="5dp"
+          android:layout_margin="15dp"
+          app:cardElevation="5dp">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:visibility="visible"
+              android:orientation="vertical">
+
+              <ImageView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:scaleType="fitXY"
+                  android:layout_marginTop="25dp"
+                  android:src="@drawable/ic_lock_safe"
+                  android:layout_gravity="center" />
+
+              <EditText
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_margin="20sp"
+                  android:id="@+id/enter_user_otp"
+                  android:hint="@string/enter_genr_otp"/>
+
+              <Button
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/for_Submit"
+                  android:id="@+id/submit_user_otp"
+                  android:layout_marginLeft="35sp"
+                  android:textColor="#ffff"
+                  android:background="#F76128"
+                  android:layout_marginRight="35sp"/>
+
+          </LinearLayout>
+
+      </com.google.android.material.card.MaterialCardView>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="15dp"
+          android:layout_marginRight="15dp"
+          android:layout_marginTop="5dp"
+          android:orientation="horizontal">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/note"
+              android:textSize="13sp"
+              android:textColor="#000"
+              android:fontFamily="sans-serif"
+              android:textStyle="bold"/>
+
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/request_info"
+              android:textSize="13sp"
+              android:textColor="#000"
+              android:fontFamily="sans-serif"/>
+
+      </LinearLayout>
+
+
+  </LinearLayout>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

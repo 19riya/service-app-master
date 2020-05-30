@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.user.Sub_Product_List">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+
+         <androidx.appcompat.widget.Toolbar
+             android:id="@+id/title_subProduct"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             app:titleTextColor="#fff"
+             android:background="#000">
+         </androidx.appcompat.widget.Toolbar>
+
+
+         <com.hrproject.HelperClasses.ExpandableHeightGridView
+             android:layout_width="match_parent"
+             android:id="@+id/SubList"
+             android:layout_height="match_parent"></com.hrproject.HelperClasses.ExpandableHeightGridView>
+
+
+        <!-- <net.mskurt.neveremptylistviewlibrary.NeverEmptyListView
+             android:id="@+id/SubList"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             app:holderText="@string/sub_product_heading"
+             app:holderTextFontSize="12sp"></net.mskurt.neveremptylistviewlibrary.NeverEmptyListView>
+-->
+
+      </LinearLayout>
+
+   </LinearLayout>
+</ScrollView>

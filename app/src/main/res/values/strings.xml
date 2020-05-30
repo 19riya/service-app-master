@@ -1,0 +1,341 @@
+<resources>
+    <string name="app_name">Wicito</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_vmaps">Map</string>
+    <string name="title_activity_vendor__welcome">Vendor_Welcome</string>
+    <string name="title_home">Home</string>
+    <string name="cat_list_name">hello</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+    <string name="help">Help Center</string>
+
+
+    <!--Pic Image-->
+    <string name="choose">Choose any one</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <!--change password-->
+    <string name="title_change_password">Change Password</string>
+    <string name="current_password">Current Password:</string>
+    <string name="new_password">New Password:</string>
+    <string name="re_enter">Re-enter Password:</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="cancel_changes">Cancel</string>
+
+    <!--choose option-->
+    <string name="user">I want to hire</string>
+    <string name="door_closer">I want to work</string>
+
+    <!--Forgot Password-->
+    <string name="forgot_password">Forgot Password</string>
+    <string name="for_message">Write your mobile number below and we will send you OTP to reset your password </string>
+    <string name="err_mobile">Please Enter Phone Number</string>
+    <string name="for_mobile">Phone Number</string>
+    <string name="for_Submit">Submit</string>
+    <string name="location_subhead2">SAVED ADDRESSES</string>
+
+    <string name="main_text">WICITO</string>
+
+    <!--User Order Details to Vendor-->
+    <string name="ven_order_heading">SERVICE DETAILS</string>
+    <string name="order_no">Order No.</string>
+    <string name="payment_mode">Payment Mode: COD</string>
+    <string name="ven_order_head1">DELIVERY INFORMATION:</string>
+    <string name="ven_user_mobile">MOBILE</string>
+    <string name="ven_order_address">ADDRESS</string>
+    <string name="ven_user_name">NAME</string>
+    <string name="call">CALL</string>
+    <string name="service">SERVICE:</string>
+
+    <!--OTP verify-->
+    <string name="otp_heading">Verification Code</string>
+    <string name="otp_heading1">Please type the Verification code sent to</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="verify">VERIFY</string>
+
+    <!--USer Product List Description-->
+    <string name="user_heading">Road Address</string>
+    <string name="hint_address">Full Address</string>
+    <string name="range">Radius from your selected location (in KM)</string>
+    <string name="range_start">0km</string>
+    <string name="user_range">Km</string>
+    <string name="range_end">10Km</string>
+    <string name="confirm_booking">PLACE REQUEST</string>
+
+    <!--User Registration-->
+    <string name="user_reg_heading">User Registration</string>
+
+    <!--User Set Service Location-->
+    <string name="user_location_heading">SET SERVICE LOCATION</string>
+    <string name="location_subhead">Current Location</string>
+    <string name="location_gps">Using GPS</string>
+    <string name="location_subhead1">Use my current location</string>
+    <string name="location_home">Home</string>
+    <string name="home_location1">home address</string>
+    <string name="location_other">Other</string>
+
+    <string name="choose_one"><u>WICITO</u></string>
+
+    <!--Sub Product List-->
+    <string name="sub_product_heading">SubCategory Not Found</string>
+
+
+    <!--User Login-->
+    <string name="login_heading">SIGN IN</string>
+    <string name="login_subhead">Welcome</string>
+    <string name="user_mobile">USER MOBILE</string>
+    <string name="password">PASSWORD</string>
+    <string name="login_head1">Sign in to continue</string>
+    <string name="head2">using our app</string>
+    <string name="user_forgot_password">Forgot Password?</string>
+
+    <!--Show Profile-->
+    <string name="show_heading">Personal Details"</string>
+    <string name="show_email">Email</string>
+    <string name="show_mobile">Mobile No.</string>
+    <string name="show_birth">Date Of Birth</string>
+    <string name="show_address1">Address 1 </string>
+
+    <!--User Show Profile-->
+    <string name="show_user_address2">Address 2 </string>
+
+    <!--Edit Profile-->
+    <string name="edit_name">UserName *</string>
+    <string name="edit_birth">Date OF Birth *</string>
+
+    <!--USer Edit Profile-->
+    <string name="user_edit_description">Description *</string>
+    <string name="user_edit_address">Address 1*</string>
+    <string name="user_edit_address1">Address 2*</string>
+
+    <!--Vendor Registration-->
+    <string name="ven_reg_heading">Vendor Registration</string>
+
+    <!--Vendor Edit Profile-->
+    <string name="ven_edit_address">Address*</string>
+    <string name="ven_edit_experience">Experience(in years)*</string>
+    <string name="ven_edit_skill">Skill Category*</string>
+    <string name="ven_edit_sub_skill">Skill Sub Category*</string>
+    <string name="ven_edit_descr">Skill Description*</string>
+
+    <!--Vendor Show Profile-->
+    <string name="ven_experience">Experience(in years)</string>
+    <string name="ven_exper_image">Experience Certificate Image</string>
+    <string name="ven_skill">Skill Categories</string>
+    <string name="ven_sub_skill">Skill Sub Categories</string>
+    <string name="ven_description">Skill Description</string>
+    <string name="ven_id_type">Govt. ID type</string>
+    <string name="ven_id_front">Front Image Of Govt. ID</string>
+    <string name="ven_id_back">Back Image Of Govt. ID</string>
+
+    <!--VMap Activity-->
+    <string name="map_heading">Select Location</string>
+    <string name="map_change">Change Address</string>
+    <string name="map_location">Location</string>
+    <string name="map_confirm">Confirm Location</string>
+
+    <!--Forgot OTP Verify-->
+    <string name="otp_enter">Enter Your OTP</string>
+    <string name="otp_password">Enter New Password</string>
+
+    <!--Fragment User Booking-->
+    <string name="booking_heading">Bookings</string>
+
+    <!--Fragment User Home-->
+    <string name="frag_home_heading">Search for a service</string>
+
+
+    <!--Fragment USer/Vendor Personal Details -->
+    <string name="reg_name">User Name</string>
+    <string name="reg_birth">Select Birthdate</string>
+    <string name="reg_email">E-mail Address</string>
+    <string name="reg_password">Password</string>
+    <string name="reg_confirm_pass">Confirm Password</string>
+    <string name="reg_address1">Enter first Address</string>
+    <string name="reg_address2">Enter second Address</string>
+    <string name="reg_save_next">Save &amp; Next</string>
+
+
+    <!--Fragment Vendor Skill Details-->
+    <string name="frag_reg_select_skill">Select Skills *</string>
+    <string name="frag_reg_previous">Previous</string>
+
+    <!--Fragment User/Vendor Profile-->
+    <string name="frag_profile1">My Profile</string>
+    <string name="frag_profile2">My Wallet</string>
+    <string name="frag_profile3">Share this Service</string>
+    <string name="frag_profile4">About App</string>
+    <string name="frag_profile5">Logout</string>
+
+    <!--Fragment Vendor/User Verification-->
+    <string name="frag_ver_heading">Add Photo ID Proof</string>
+    <string name="frag_ver_heading1">Front Side Image: </string>
+    <string name="frag_ver_heading2">Back Side Image:</string>
+    <string name="frag_ver_heading3">Front and back of Photo ID(JPG and PNG format are accepted. File size limited to 5MB)</string>
+    <string name="frag_ver_heading4">Police Verification Image : </string>
+    <string name="frag_ver_heading5">User Description</string>
+
+    <!--Select Language-->
+    <string name="language">Choose Language</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="select_language">Select Language</string>
+    <string name="err_address">Please Enter Your first Address</string>
+
+
+    <string name="failed">Failed</string>
+    <string name="ok">OK</string>
+    <string name="internet_connection">Internet Connection Failed</string>
+    <string name="loc_nfound">Location not found</string>
+    <string name="valid_code">Please Enter valid code</string>
+    <string name="otp_success">OTP Sent Successfully. Please Wait..</string>
+    <string name="otp_failed">Failed..!!  OTP Not Sent</string>
+    <string name="reg_details">Personal Details</string>
+    <string name="congo">Congratulations</string>
+    <string name="alert">Alert</string>
+    <string name="sure_exit">Sure, You want to Logout?</string>
+    <string name="gps_alert">GPS is settings</string>
+    <string name="gps_mess">GPS is not enabled. Do you want to go to settings menu?</string>
+    <string name="setting">Settings</string>
+    <string name="upload_image">Please Upload Image</string>
+    <string name="err_front_image">Choose Front Image</string>
+    <string name="err_back_image">Choose Back Image</string>
+    <string name="action">Action</string>
+    <string name="err_idType">Select Your ID Type</string>
+    <string name="err_police_verImage">Upload Police Verification Image</string>
+    <string name="adhaar">Adhaar Card</string>
+    <string name="driving">Driving Licence</string>
+    <string name="passport">Passport</string>
+    <string name="update_avail">New Update Available</string>
+    <string name="update_massage">There is a new Version Available for this app.</string>
+    <string name="update_now">Update Now</string>
+    <string name="update_not">Not Now</string>
+    <string name="err_pass">Enter a password of atleast 4 characters</string>
+    <string name="err_exper">Enter Your Experiance</string>
+    <string name="err_descr">Enter your Skills Description</string>
+    <string name="title_birth">Choose Date Of Birth</string>
+    <string name="err_address2">Please Enter your second Address </string>
+    <string name="err_confrm_pas">new password and confirm password doesn\'t match</string>
+    <string name="err_new_pass">Old Password and new Password can\'t be same</string>
+    <string name="err_otp">Enter Valid Otp</string>
+    <string name="err_email">please enter your Email</string>
+    <string name="err_skill">please enter your skills</string>
+    <string name="err_subskill">Enter your skill sub category</string>
+    <string name="tab1">PERSONAL DETAILS</string>
+
+    <!--Tab Fragment Name-->
+    <string name="tab2">VERIFICATION</string>
+    <string name="tab3">SKILLS</string>
+    <string name="dont_have_account">Don\'t have an account</string>
+    <string name="ven_profile_heading">Service Boy</string>
+    <string name="accept">ACCEPT</string>
+
+    <string name="reject">REJECT</string>
+    <string name="message">CHAT</string>
+    <string name="user_order_heading">VENDOR DETAILS</string>
+    <string name="generated_otp">GENERATED OTP:</string>
+
+    <string name="popup_services">YOUR SERVICES</string>
+    <string name="popup_ven_mobile">VENDOR NUMBER</string>
+    <string name="enter_genr_otp">Here Enter User\'s OTP</string>
+    <string name="user_name">NAME</string>
+    <string name="status">Status</string>
+    <string name="rate_review">Rate and Review</string>
+    <string name="range_value">Selected range is:</string>
+    <string name="err_certi_image">Please upload experience certificate image</string>
+    <string name="write_review">Write a review</string>
+    <string name="enter_review">Describe your experience (optional)</string>
+    <string name="no_booking">Whoops, No Bookings!</string>
+    <string name="book_booking">Book a service</string>
+    <string name="nothing_found">Nothing Found</string>
+    <string name="validity_time">Day Service Guarantee</string>
+
+
+    <string name="offer_skilled">Skilled and Verified Technicians</string>
+    <string name="offer_max_use1">Applicable Maximum</string>
+    <string name="offer_max_use2">times</string>
+    <string name="offer_descp1">Get upto</string>
+    <string name="offer_descrp2">% discount using Code</string>
+    <string name="details">View Details</string>
+    <string name="validity_date">Validity</string>
+    <string name="select_range">Please select range</string>
+    <string name="offer_charges">Charges:</string>
+    <string name="required_permission">Required Permissions</string>
+    <string name="permission_explain">This app require permission to use awesome feature. Grant them in app settings.</string>
+    <string name="to_setting">Take Me To settings</string>
+    <string name="tool_profile">My Details</string>
+    <string name="tool_edit">Edit Profile</string>
+    <string name="notify_heading">Notifications</string>
+    <string name="err_name">Please enter username</string>
+    <string name="err_birth">Please select birthdate</string>
+    <string name="err_confirm_pass">Please confirm your password</string>
+    <string name="ven_reg_name">Vendor Name</string>
+    <string name="err_user_descr">Please enter user description</string>
+    <string name="err_ven_name">Please enter vendor name</string>
+    <string name="monthly_subscrp">Monthly Subscriptions:</string>
+    <string name="days">days</string>
+    <string name="select_subCatg">Please select sub-category</string>
+    <string name="inbox_heading">Inbox</string>
+    <string name="tag_line">Your Home Service Expert</string>
+    <string name="login_head3">Sign up</string>
+    <string name="back">Back</string>
+    <string name="subscrp_title">SUBSCRIPTIONS</string>
+    <string name="apply_code">APPLY</string>
+    <string name="limit_code">Sorry, this code is applicable only</string>
+    <string name="remove_code">Remove</string>
+    <string name="days_ago">days ago</string>
+    <string name="coupon_heading">Available Coupons</string>
+    <string name="back_again">Please click BACK again to exit.</string>
+    <string name="chat_type_hint">Type a message</string>
+    <string name="url">http://thedruggist.co.in/service/UrbanJson/</string>
+    <string name="service_date1">Please select starting service date</string>
+    <string name="service_date2">Please select ending service date</string>
+    <string name="service_from_date">Service start date:</string>
+    <string name="service_to_date">Service end date:</string>
+    <string name="small_phone">Do you have small phone?</string>
+    <string name="edit_small_phone">Small Phone</string>
+    <string name="chat_complete">Are you going for service?</string>
+    <string name="chat_yes">Yes</string>
+    <string name="chat_no">No</string>
+    <string name="response_thanks">Thanks!! for response</string>
+    <string name="chat_menu">Complete</string>
+    <string name="success">Successfull</string>
+    <string name="chat_menu1">Go To Map</string>
+    <string name="user_chat_complete">Do you want to take service?</string>
+    <string name="your_otp">Your service\'s OTP:</string>
+    <string name="service_otp">OTP:</string>
+    <string name="service_amnt">Service Amount</string>
+    <string name="amnt_instruction">If you are okay with Amount and want to take service then click \'Yes\' otherwise \'No\'</string>
+    <string name="enter_amnt">Enter your service amount</string>
+    <string name="ask_amnt">Amount?</string>
+    <string name="err_amnt">Please enter your service amount</string>
+    <string name="note">"NOTE: "</string>
+    <string name="request_info">You can\'t quit service request after accepting</string>
+    <string name="chat_refresh">Refresh</string>
+    <string name="select_date">Whe would you like your service?</string>
+    <string name="top_worker">Click here to see TOP WORKERS LIST</string>
+    <string name="top_worker_tool">Top Worker List</string>
+    <string name="for_select">Select</string>
+    <string name="share_app">Share Wicito</string>
+    <string name="confirm_man">Are you sure, you want service from</string>
+    <string name="rating">Rating</string>
+    <string name="send">Send</string>
+    <string name="send_image">Send image</string>
+    <string name="image_to">to</string>
+    <string name="review">Review</string>
+    <string name="vreview_for">Rate your response from</string>
+    <string name="submit_feedback">Submit Feedback</string>
+    <string name="ureview_for">Rate your service from</string>
+    <string name="write_review_required">Write a review. (Required)</string>
+    <string name="err_review">Please enter review</string>
+    <string name="booking_otp">Verify OTP</string>
+    <string-array name="list_items">
+        <item>@string/english</item>
+        <item>@string/hindi</item>
+    </string-array>
+
+
+</resources>

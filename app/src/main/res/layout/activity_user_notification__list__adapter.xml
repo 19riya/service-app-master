@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="2sp"
+        android:paddingLeft="5sp"
+        android:paddingTop="3sp"
+        android:paddingBottom="5sp"
+        android:paddingRight="5sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:drawableStart="@drawable/ic_fiber_manual_record_black_notify_24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:paddingLeft="7sp"
+            android:inputType="textMultiLine"
+            android:textColor="#201F1F"
+            android:id="@+id/user_notify_descrp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2 days ago"
+            android:id="@+id/notify_user_date"
+            android:paddingLeft="30sp"
+            android:textSize="14sp"
+            android:textColor="#201F1F"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:paddingLeft="18sp"
+        android:paddingRight="18sp"
+        android:background="#201F1F"/>
+
+
+<!--    android:textColor="#201F1F"-->
+
+</LinearLayout>

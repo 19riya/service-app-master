@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:background="@drawable/text_background"
+            android:paddingLeft="10sp"
+            android:paddingTop="4sp"
+            android:layout_gravity="right"
+            android:visibility="gone"
+            android:paddingRight="10sp"
+            android:textSize="13dp"
+            android:id="@+id/ven_vendor_message"
+            android:paddingBottom="4sp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="#ffff" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:background="@drawable/ven_text_background"
+            android:paddingLeft="10sp"
+            android:layout_gravity="left"
+            android:paddingTop="4sp"
+            android:visibility="gone"
+            android:id="@+id/ven_user_message"
+            android:paddingRight="10sp"
+            android:textSize="13dp"
+            android:paddingBottom="4sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ven_vendor_message"
+            android:textColor="#7A7575" />
+
+       <!-- <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <WebView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/webView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:visibility="visible"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true" />
+
+        </RelativeLayout>-->
+
+
+        <ImageView
+            android:layout_width="200sp"
+            android:layout_height="150sp"
+            android:layout_margin="10sp"
+            android:visibility="gone"
+            android:paddingLeft="10sp"
+            android:paddingTop="4sp"
+            android:layout_gravity="right"
+            android:paddingRight="10sp"
+            android:textSize="13dp"
+            app:layout_constraintBottom_toTopOf="@id/ven_user_message"
+            android:id="@+id/van_vendor_image"
+            android:paddingBottom="4sp"
+            android:textColor="#ffff" />
+
+
+        <ImageView
+            android:layout_width="200sp"
+            android:layout_height="150sp"
+            android:layout_margin="10sp"
+            android:paddingLeft="10sp"
+            android:paddingTop="4sp"
+            android:layout_gravity="left"
+            android:visibility="gone"
+            android:paddingRight="10sp"
+            android:id="@+id/ven_user_image"
+            android:textSize="13dp"
+            android:paddingBottom="4sp"
+            android:textColor="#ffff" />
+
+
+    </LinearLayout>
+
+  <!--  <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="@drawable/text_background"
+        android:paddingLeft="10sp"
+        android:paddingTop="4sp"
+        android:paddingRight="10sp"
+        android:textSize="13dp"
+        android:id="@+id/ven_vendor_message"
+        android:paddingBottom="4sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="#ffff" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="@drawable/ven_text_background"
+        android:paddingLeft="10sp"
+        android:paddingTop="4sp"
+        android:id="@+id/ven_user_message"
+        android:paddingRight="10sp"
+        android:textSize="13dp"
+        android:paddingBottom="4sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ven_vendor_message"
+        android:textColor="#7A7575" />
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:paddingLeft="10sp"
+        android:paddingTop="4sp"
+        android:paddingRight="10sp"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toTopOf="@id/ven_user_message"
+        android:id="@+id/van_vendor_image"
+        android:paddingBottom="4sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="#ffff" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="@drawable/ven_text_background"
+        android:paddingLeft="10sp"
+        android:paddingTop="4sp"
+        android:id="@+id/ven_user_message"
+        android:paddingRight="10sp"
+        android:textSize="13dp"
+        android:paddingBottom="4sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ven_vendor_message"
+        android:textColor="#7A7575" />
+
+-->
+
+
+
+</LinearLayout>

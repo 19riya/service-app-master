@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:behavior_hideable="true"
+    android:id="@+id/bottom_layout"
+    android:fitsSystemWindows="true"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/coupon_heading"
+            android:textSize="22sp"
+            android:paddingLeft="15sp"
+            android:paddingTop="3sp"
+            android:paddingBottom="3sp"
+            android:fontFamily="@font/domine"
+            android:layout_marginLeft="2sp"
+            android:layout_marginRight="2sp"
+            android:textColor="#201F1F"
+            android:background="#F8F6F6"/>
+
+     <!--   <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+-->
+            <com.hrproject.HelperClasses.ExpandableHeightGridView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/offer_list"
+                android:numColumns="1">
+            </com.hrproject.HelperClasses.ExpandableHeightGridView>
+
+   <!--     </ScrollView>-->
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

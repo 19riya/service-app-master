@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<!--    android:background="#F5F0F0"-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="@drawable/text_background"
+        android:paddingLeft="10sp"
+        android:layout_marginLeft="7sp"
+        android:paddingTop="4sp"
+        android:paddingRight="10sp"
+        android:id="@+id/user_message"
+        android:paddingBottom="4sp"
+        android:visibility="gone"
+        android:textSize="13dp"
+        android:text="hello ...everything ok."
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="#ffff" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="@drawable/ven_text_background"
+        android:paddingLeft="10sp"
+        android:paddingTop="4sp"
+        android:textSize="13dp"
+        android:id="@+id/vendor_message"
+        android:paddingRight="10sp"
+        android:visibility="gone"
+        android:paddingBottom="4sp"
+        android:text="hello ...everything ok."
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/user_message"
+        android:textColor="#7A7575" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

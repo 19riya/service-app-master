@@ -1,0 +1,345 @@
+<resources>
+    <string name="app_name">Wicito</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_vmaps">नक्शा</string>
+    <string name="title_activity_vendor__welcome">Vendor_Welcome</string>
+    <string name="title_home">घर</string>
+    <string name="cat_list_name">नमस्ते</string>
+    <string name="title_dashboard">डैशबोर्ड</string>
+    <string name="title_notifications">अधिसूचना</string>
+    <string name="title_profile">प्रोफाइल</string>
+    <string name="help">सहायता केंद्र</string>
+
+    <string name="choose_one"><u>अर्बन क्लैप</u></string>
+
+    <!--Pic Image-->
+    <string name="choose">किसी एक को चुनें</string>
+    <string name="camera">कैमरा</string>
+    <string name="gallery">गेलरी</string>
+    <!--change password-->
+    <string name="title_change_password">पासवर्ड बदलें</string>
+    <string name="current_password">वर्तमान पासवर्ड:</string>
+    <string name="new_password">नया पासवर्ड:</string>
+    <string name="re_enter">पासवर्ड पुनः दर्ज करें:</string>
+    <string name="save_changes">परिवर्तनों को सुरक्षित करें</string>
+    <string name="cancel_changes">रद्द करना</string>
+
+    <!--choose option-->
+    <string name="user">मैं पारिश्रमिक चाहता हूं</string>
+    <string name="door_closer">मैं काम करना चाहता हूँ</string>
+
+    <!--Forgot Password-->
+    <string name="forgot_password">क्या आप पासवर्ड भूल गए</string>
+    <string name="for_message">अपना मोबाइल नंबर नीचे लिखें और हम आपको अपना पासवर्ड रीसेट करने के लिए ओटीपी भेजेंगे</string>
+    <string name="for_mobile">फ़ोन नंबर</string>
+    <string name="err_mobile">कृपया फ़ोन नंबर दर्ज करें</string>
+    <string name="for_Submit">प्रस्तुत</string>
+    <string name="location_subhead2">सहेजा हुआ पता</string>
+
+
+    <string name="main_text">WICITO</string>
+
+    <!--User Order Details to Vendor-->
+    <string name="ven_order_heading">सेवा विवरण</string>
+    <string name="order_no">आदेश संख्या</string>
+    <string name="payment_mode">भुगतान मोड: नकद</string>
+    <string name="ven_order_head1">वितरण की जानकारी:</string>
+    <string name="ven_user_mobile">मोबाइल</string>
+    <string name="ven_order_address">पता</string>
+    <string name="ven_user_name">नाम</string>
+    <string name="call">कॉल</string>
+    <string name="service">सेवा:</string>
+
+    <!--OTP verify-->
+    <string name="otp_heading">पुष्टि संख्या</string>
+    <string name="otp_heading1">पुष्टि संख्या कृपया आपको भेजा गया सत्यापन कोड टाइप करें</string>
+    <string name="resend_otp">ओटीपी पुनः भेजें</string>
+    <string name="verify">सत्यापित करें</string>
+
+    <!--USer Product List Description-->
+    <string name="user_heading">जगह का पता</string>
+    <string name="hint_address">पूरा पता</string>
+    <string name="range">अपने चयनित स्थान से त्रिज्या (किमी में)</string>
+    <string name="range_start">0 किमी</string>
+    <string name="user_range">किमी</string>
+    <string name="range_end">10 किमी</string>
+    <string name="confirm_booking">सेवा के लिए अनुरोध</string>
+
+    <!--User Registration-->
+    <string name="user_reg_heading">उपयोगकर्ता का पंजीकरण</string>
+
+    <!--User Set Service Location-->
+    <string name="user_location_heading">अपना सेवा क्षेत्र या अपार्टमेंट दर्ज करें</string>
+    <string name="location_subhead">वर्तमान स्थान</string>
+    <string name="location_gps">GPS का उपयोग करना</string>
+    <string name="location_subhead1">मेरे वर्तमान स्थान का उपयोग करें</string>
+    <string name="location_home">घर</string>
+    <string name="home_location1">घर का पता</string>
+    <string name="location_other">अन्य</string>
+
+    <!--Sub Product List-->
+    <string name="sub_product_heading">उपश्रेणी नहीं मिली</string>
+
+    <!--User Login-->
+    <string name="login_heading">साइन इन करें</string>
+    <string name="login_subhead">स्वागत हे</string>
+    <string name="user_mobile">उपयोगकर्ता मोबाइल</string>
+    <string name="password">पासवर्ड </string>
+    <string name="login_head1">जारी रखने के लिए साइन इन करें</string>
+    <string name="head2">हमारे app का उपयोग कर</string>
+    <string name="user_forgot_password">पासवर्ड भूल गए?</string>
+
+    <!--Show Profile-->
+    <string name="show_heading">व्यक्तिगत विवरण"</string>
+    <string name="show_email">ईमेल</string>
+    <string name="show_mobile">मोबाइल नंबर</string>
+    <string name="show_birth">जन्म की तारीख</string>
+    <string name="show_address1">पता 1 </string>
+
+    <!--User Show Profile-->
+    <string name="show_user_address2">पता 2 </string>
+
+    <!--Edit Profile-->
+    <string name="edit_name">पूरा नाम*</string>
+    <string name="edit_birth">जन्म की तारीख*</string>
+
+    <!--USer Edit Profile-->
+    <string name="user_edit_description">विवरण *</string>
+    <string name="user_edit_address">पता 1*</string>
+    <string name="user_edit_address1">पता 2*</string>
+
+    <!--Vendor Registration-->
+    <string name="ven_reg_heading">विक्रेता पंजीकरण</string>
+
+    <!--Vendor Edit Profile-->
+    <string name="ven_edit_address">पता*</string>
+    <string name="ven_edit_experience">अनुभव(सालों में)*</string>
+    <string name="ven_edit_skill">कौशल श्रेणी*</string>
+    <string name="ven_edit_sub_skill">कौशल उप श्रेणी*</string>
+    <string name="ven_edit_descr">कौशल विवरण*</string>
+
+
+    <!--Vendor Show Profile-->
+    <string name="ven_experience">अनुभव(सालों में)</string>
+    <string name="ven_exper_image">अनुभव प्रमाण पत्र छवि</string>
+    <string name="ven_skill">कौशल श्रेणी</string>
+    <string name="ven_sub_skill">कौशल उप श्रेणी</string>
+    <string name="ven_description">कौशल विवरण</string>
+    <string name="ven_id_type">सरकारी आईडी प्रकार</string>
+    <string name="ven_id_front">सरकारी आईडी की सामने की छवि</string>
+    <string name="ven_id_back">सरकारी आईडी की पीछे की छवि</string>
+
+    <!--VMap Activity-->
+    <string name="map_heading">स्थान चुनें</string>
+    <string name="map_change">अपना पता बदलें</string>
+    <string name="map_location">स्थान</string>
+    <string name="map_confirm">स्थान की पुष्टि करें</string>
+
+    <!--Forgot OTP Verify-->
+    <string name="otp_enter">अपना ओटीपी दर्ज करें</string>
+    <string name="otp_password">नया पासवर्ड दर्ज करें</string>
+
+    <!--Fragment User Booking-->
+    <string name="booking_heading">बुकिंग</string>
+
+    <!--Fragment User Home-->
+    <string name="frag_home_heading">एक सेवा के लिए खोजें</string>
+
+
+    <!--Fragment USer/Vendor Personal Details -->
+    <string name="reg_name">उपयोगकर्ता नाम</string>
+    <string name="reg_birth">जन्मतिथि का चयन करें</string>
+    <string name="reg_email">ईमेल पता</string>
+    <string name="reg_address1">पहला पता दर्ज करें</string>
+    <string name="reg_address2">दूसरा पता दर्ज करें</string>
+    <string name="reg_password">पास वर्ड दर्ज करें</string>
+    <string name="reg_confirm_pass">पासवर्ड की पुष्टि कीजिये</string>
+    <string name="reg_save_next">सहेजें और अगला</string>
+
+    <!--Fragment Vendor Skill Details-->
+    <string name="frag_reg_select_skill">कौशल का चयन करें*</string>
+    <string name="frag_reg_previous">पिछला</string>
+
+    <!--Fragment User/Vendor Profile-->
+    <string name="frag_profile1">मेरी प्रोफाइल</string>
+    <string name="frag_profile2">मेरा बटुआ</string>
+    <string name="frag_profile3">इस सेवा को साझा करें</string>
+    <string name="frag_profile4">ऐप के बारे में</string>
+    <string name="frag_profile5">लॉग आउट</string>
+
+    <!--Fragment Vendor/User Verification-->
+    <string name="frag_ver_heading">फोटो आईडी प्रूफ जोड़ें</string>
+    <string name="frag_ver_heading1">फ्रंट साइड इमेज: </string>
+    <string name="frag_ver_heading2">बैक साइड इमेज:</string>
+    <string name="frag_ver_heading3">फोटो आईडी के आगे और पीछे (जेपीजी और पीएनजी प्रारूप स्वीकार किए जाते हैं। फ़ाइल का आकार 5 एमबी तक सीमित है)</string>
+    <string name="frag_ver_heading4">पुलिस सत्यापन छवि: </string>
+    <string name="frag_ver_heading5">उपयोगकर्ता विवरण दर्ज करें</string>
+
+    <!--Select Language -->
+    <string name="language">ऐप की भाषा</string>
+    <string name="english">अंग्रेज़ी</string>
+    <string name="hindi">हिंदी</string>
+    <string-array name="list_items">
+        <item>@string/english</item>
+        <item>@string/hindi</item>
+    </string-array>
+    <string name="select_language">भाषा का चयन करें</string>
+
+
+   <!-- <string-array name="id_select">
+        <item>@string/adhaar</item>
+        <item>@string/pan</item>
+        <item>@string/driving</item>
+        <item>@string/passport</item>
+    </string-array>
+-->
+    <string name="err_address">कृपया अपना पहला पता दर्ज करें</string>
+    <string name="failed">अनुत्तीर्ण होना</string>
+    <string name="ok">ठीक</string>
+    <string name="internet_connection">इंटरनेट कनेक्शन विफल</string>
+    <string name="loc_nfound">स्थान नहीं मिला</string>
+    <string name="valid_code">कृपया मान्य कोड दर्ज करें</string>
+    <string name="otp_success">OTP को सफलतापूर्वक भेजा गया। कृपया प्रतीक्षा करें..</string>
+    <string name="otp_failed">अनुत्तीर्ण होना..!! OTP भेजा नहीं गया</string>
+    <string name="reg_details">व्यक्तिगत विवरण</string>
+    <string name="congo">बधाई हो</string>
+    <string name="alert">चेतावनी !!</string>
+    <string name="sure_exit">सुनिश्चित करें कि आप लॉगआउट करना चाहते हैं?</string>
+    <string name="gps_alert">GPS समायोजन</string>
+    <string name="gps_mess">GPS सक्षम नहीं है। क्या आप सेटिंग मेनू में जाना चाहते हैं?</string>
+    <string name="setting">समायोजन</string>
+    <string name="upload_image">कृपया छवि अपलोड करें</string>
+    <string name="err_front_image">फ्रंट इमेज चुनें</string>
+    <string name="err_back_image">बैक इमेज चुनें</string>
+    <string name="action">कार्य</string>
+    <string name="err_idType">अपनी आईडी प्रकार चुनें</string>
+    <string name="err_police_verImage">पुलिस सत्यापन छवि अपलोड करें</string>
+    <string name="adhaar">आधार कार्ड</string>
+    <string name="driving">ड्राइविंग लाइसेंस</string>
+    <string name="passport">पासपोर्ट</string>
+    <string name="update_avail">अपडेट उपलब्ध</string>
+    <string name="update_massage">इस ऐप के लिए एक नया संस्करण उपलब्ध है</string>
+    <string name="update_now">अभी अद्यतन करें</string>
+    <string name="update_not">अभी नहीं</string>
+    <string name="err_pass">कम से कम 4 वर्णों का एक पासवर्ड दर्ज करें</string>
+    <string name="err_exper">अपना प्रयोग दर्ज करें</string>
+    <string name="err_descr">कौशल विवरण दर्ज करें</string>
+    <string name="title_birth">जन्म की तारीख चुनें</string>
+    <string name="err_address2">कृपया अपना दूसरा पता दर्ज करें</string>
+    <string name="err_email">अपना ईमेल दर्ज करें</string>
+    <string name="err_confrm_pas">नया पासवर्ड और पासवर्ड की पुष्टि न करें, मैच</string>
+    <string name="err_new_pass">पुराना पासवर्ड और नया पासवर्ड समान नहीं हो सकते</string>
+    <string name="err_otp">मान्य Otp दर्ज करें</string>
+    <string name="err_skill">कृपया अपने कौशल को दर्ज करें</string>
+    <string name="err_subskill">कृपया अपने उप कौशल दर्ज करें</string>
+
+    <string name="tab1">विक्रेता विवरण</string>
+    <string name="tab2">सत्यापन</string>
+    <string name="tab3">कौशल</string>
+    <string name="dont_have_account">खाता नहीं है</string>
+    <string name="ven_profile_heading">सेवा देने वाला लड़का</string>
+
+    <string name="accept">स्वीकार </string>
+    <string name="reject">अस्वीकार</string>
+    <string name="message">बातचीत</string>
+    <string name="user_order_heading">विक्रेता विवरण</string>
+
+    <string name="generated_otp">आपके द्वारा उत्पन्न ओटीपी:</string>
+    <string name="popup_services">आपकी सेवाएं</string>
+    <string name="popup_ven_mobile">विक्रेता का नंबर</string>
+    <string name="enter_genr_otp">यहां उपयोगकर्ता का ओटीपी दर्ज करें</string>
+    <string name="user_name">उपयोगकर्ता नाम</string>
+    <string name="status">स्थिति</string>
+    <string name="rate_review">दर नियत करें और समीक्षा करें</string>
+    <string name="range_value">कचयनित रेंज है:</string>
+    <string name="err_certi_image">कृपया अनुभव प्रमाणपत्र छवि अपलोड करें</string>
+    <string name="write_review">एक समीक्षा लिखे</string>
+    <string name="enter_review">अपने अनुभव का वर्णन करें (वैकल्पिक)</string>
+    <string name="no_booking">वूप्स, नो बुकिंग्स!</string>
+    <string name="book_booking">एक सेवा बुक करें</string>
+    <string name="nothing_found">कुछ नहीं मिला</string>
+    <string name="validity_time">दिन की सेवा की गारंटी</string>
+    <string name="offer_skilled">कुशल और सत्यापित तकनीशियन</string>
+
+    <string name="offer_max_use1">लागू अधिकतम</string>
+    <string name="offer_max_use2">बार</string>
+    <string name="offer_descp1">Get upto</string>
+    <string name="offer_descrp2">% discount using Code</string>
+    <string name="details">विवरण देखें</string>
+    <string name="validity_date">वैधता</string>
+    <string name="select_range">कृपया सीमा का चयन करें</string>
+    <string name="offer_charges">शुल्क:</string>
+    <string name="required_permission">आवश्यक अनुमतियां</string>
+    <string name="permission_explain">इस एप्लिकेशन को अच्छी सुविधा का उपयोग करने की अनुमति की आवश्यकता है। उन्हें ऐप सेटिंग में दें।</string>
+    <string name="to_setting">मुझे सेटिंग में ले जाएं</string>
+    <string name="tool_profile">मेरा विवरण</string>
+    <string name="tool_edit">प्रोफाइल एडिट करें</string>
+    <string name="notify_heading">सूचनाएं</string>
+    <string name="err_name">कृपया उपयोगकर्ता नाम दर्ज करें</string>
+    <string name="err_birth">कृपया जन्मतिथि का चयन करें</string>
+    <string name="err_confirm_pass">कृपया अपने पासवर्ड की पुष्टि करें</string>
+    <string name="ven_reg_name">विक्रेता का नाम</string>
+    <string name="err_user_descr">कृपया उपयोगकर्ता विवरण दर्ज करें</string>
+    <string name="err_ven_name">कृपया विक्रेता का नाम दर्ज करें</string>
+    <string name="monthly_subscrp">मासिक सदस्यता:</string>
+    <string name="days">दिन</string>
+    <string name="select_subCatg">कृपया उप-श्रेणी का चयन करें</string>
+    <string name="inbox_heading">संदेश</string>
+    <string name="tag_line">आपका गृह सेवा विशेषज्ञ</string>
+    <string name="login_head3">अभी पंजीकरण करें</string>
+    <string name="back">वापस</string>
+    <string name="subscrp_title">सदस्यता</string>
+    <string name="apply_code">लागू करें</string>
+    <string name="limit_code">क्षमा करें, यह कोड केवल लागू है</string>
+    <string name="remove_code">हटाना</string>
+    <string name="days_ago">दिन पहले</string>
+    <string name="coupon_heading">उपलब्ध कूपन</string>
+    <string name="back_again">कृपया बाहर निकलने के लिए फिर से क्लिक करें।</string>
+    <string name="chat_type_hint">एक संदेश लिखें</string>
+    <string name="url">http://thedruggist.co.in/service/UrbanJson/</string>
+    <string name="service_date1">कृपया सेवा की प्रारंभिक तिथि चुनें</string>
+    <string name="service_date2">कृपया सेवा की समाप्ति तिथि चुनें</string>
+    <string name="service_from_date">सेवा प्रारंभ दिनांक:</string>
+    <string name="service_to_date">सेवा समाप्ति की तारीख:</string>
+    <string name="small_phone">क्या आपके पास छोटा फोन है?</string>
+    <string name="edit_small_phone">छोटा फोन</string>
+    <string name="chat_complete">क्या आप निश्चित हैं, आप इस प्रक्रिया को समाप्त करना चाहते हैं?</string>
+    <string name="chat_yes">हाँ</string>
+    <string name="chat_no">नहीं</string>
+    <string name="response_thanks">धन्यवाद!! प्रतिक्रिया के लिए</string>
+    <string name="chat_menu">पूर्ण</string>
+    <string name="success">सफल</string>
+    <string name="chat_menu1">मैप पर जाएं</string>
+    <string name="user_chat_complete">क्या आप सेवा लेना चाहते हैं?</string>
+    <string name="your_otp">आपकी सेवा का OTP:</string>
+    <string name="service_otp">OTP:</string>
+    <string name="service_amnt">सेवा राशि</string>
+    <string name="amnt_instruction">यदि आप राशि के साथ ठीक हैं और सेवा लेना चाहते हैं तो \'हां\' पर क्लिक करें अन्यथा \'नहीं\'</string>
+    <string name="enter_amnt">अपनी सेवा राशि दर्ज करें</string>
+    <string name="ask_amnt">रकम?</string>
+    <string name="err_amnt">कृपया अपनी सेवा राशि दर्ज करें</string>
+    <string name="note">"ध्यान दें: "</string>
+    <string name="request_info">आप स्वीकार करने के बाद सेवा अनुरोध नहीं छोड़ सकते</string>
+    <string name="chat_refresh">पुनः लोड करें</string>
+    <string name="select_date">आप अपनी सेवा कब पसंद करेंगे?</string>
+    <string name="top_worker">शीर्ष कार्यकर्ता सूची देखने के लिए यहां क्लिक करें</string>
+    <string name="top_worker_tool">शीर्ष कार्यकर्ता सूची</string>
+    <string name="for_select">चुनें</string>
+    <string name="share_app">शेयर Wicito</string>
+    <string name="confirm_man">आप इस कार्यकर्ता से सेवा चाहते हैं?</string>
+    <string name="rating">रेटिंग</string>
+    <string name="send">भेजें</string>
+    <string name="send_image">को छवि</string>
+    <string name="image_to">भेजें</string>
+    <string name="review">समीक्षा</string>
+    <string name="vreview_for">से अपनी प्रतिक्रिया व्यक्त करें</string>
+    <string name="submit_feedback">प्रतिपुष्टि दें</string>
+    <string name="ureview_for">से अपनी सेवा का मूल्यांकन करें</string>
+    <string name="write_review_required">एक समीक्षा लिखे। (आवश्यक)</string>
+    <string name="err_review">कृपया समीक्षा दर्ज करें</string>
+    <string name="booking_otp">OTP सत्यापित करें</string>
+
+
+</resources>

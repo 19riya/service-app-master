@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/slider_card"
+    app:cardCornerRadius="5sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    app:cardUseCompatPadding="true">
+
+
+  <!--  <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="5sp"
+        android:layout_gravity="center"
+        app:cardUseCompatPadding="true"
+        android:id="@+id/cardView"
+        app:cardMaxElevation="5sp"
+        app:cardElevation="5sp">-->
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/cleaning_off"
+                android:id="@+id/slider_img"
+                android:layout_gravity="center"
+                android:padding="1sp"
+                android:scaleType="fitXY">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+   <!-- </androidx.cardview.widget.CardView>-->
+
+
+</androidx.cardview.widget.CardView>

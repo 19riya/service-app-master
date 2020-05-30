@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ven_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Tab_Fragments.Vendor_Personal_details">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <RelativeLayout
+               android:id="@+id/upload_image_layout"
+               android:layout_width="150sp"
+               android:layout_height="150sp"
+               android:layout_gravity="center"
+               android:gravity="center">
+
+
+               <com.mikhaellopez.circularimageview.CircularImageView
+                   android:id="@+id/vendorImage_update"
+                   android:layout_width="135dp"
+                   app:border_width="5dp"
+                   android:layout_centerInParent="true"
+                   android:layout_height="130dp"
+                   android:src="@drawable/man" />
+
+               <ImageView
+                   android:layout_width="35sp"
+                   android:layout_height="35dp"
+                   android:background="@drawable/round_back"
+                   android:layout_centerInParent="true"
+                   android:padding="5sp"
+                   android:layout_marginRight="10sp"
+                   android:layout_marginBottom="10sp"
+                   app:srcCompat="@drawable/ic_add_a_photo_black_24dp"
+                   android:backgroundTint="#fff"
+                   android:layout_alignParentRight="true"
+                   android:layout_alignParentBottom="true"/>
+
+           </RelativeLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="5dp"
+               android:orientation="horizontal">
+
+               <ImageView
+                   android:layout_width="20dp"
+                   android:layout_height="20dp"
+                   android:layout_gravity="center_vertical"
+                   android:layout_marginLeft="15dp"
+                   app:srcCompat="@drawable/name" />
+
+               <com.google.android.material.textfield.TextInputLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="5dp"
+                   android:textColorHint="#777"
+                   app:errorTextAppearance="@style/ErrorText"
+                   app:hintTextAppearance="@style/HintText"
+                   style="@style/textInputStyle"
+                   android:id="@+id/layoutvendorfirstName"
+                   android:layout_marginRight="15dp"
+                   android:padding="5dp">
+
+                   <com.google.android.material.textfield.TextInputEditText
+                       android:layout_width="match_parent"
+                       android:textSize="14dp"
+                       android:hint="@string/ven_reg_name"
+                       android:textColor="#555"
+                       android:id="@+id/vendorfirstName"
+                       android:singleLine="true"
+                       android:backgroundTint="@color/colorPrimary"
+                       android:textColorHint="#777"
+                       android:maxLines="1"
+                       style="@style/textInputStyle"
+                       android:layout_height="wrap_content" />
+
+               </com.google.android.material.textfield.TextInputLayout>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="5dp"
+               android:orientation="horizontal">
+
+               <ImageView
+                   android:layout_width="22dp"
+                   android:layout_height="22dp"
+                   android:layout_gravity="center_vertical"
+                   android:layout_marginLeft="15dp"
+                   app:srcCompat="@drawable/calender"
+                   />
+
+               <com.google.android.material.textfield.TextInputLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="5dp"
+                   android:textColorHint="#777"
+                   app:errorTextAppearance="@style/ErrorText"
+                   app:hintTextAppearance="@style/HintText"
+                   android:id="@+id/layoutvendor_dob"
+                   style="@style/textInputStyle"
+                   android:layout_marginRight="15dp"
+                   android:padding="5dp">
+
+                   <com.google.android.material.textfield.TextInputEditText
+                       android:id="@+id/vendor_dob"
+                       android:layout_width="match_parent"
+                       android:textSize="14dp"
+                       android:hint="@string/reg_birth"
+                       android:textColor="#555"
+                       android:focusable="false"
+                       android:editable="true"
+                       style="@style/textInputStyle"
+                       android:focusableInTouchMode="true"
+                       android:textColorHint="#777"
+                       android:backgroundTint="@color/colorPrimary"
+                       android:layout_height="wrap_content" />
+
+               </com.google.android.material.textfield.TextInputLayout>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="2dp"
+               android:orientation="horizontal">
+
+               <ImageView
+                   android:layout_width="22dp"
+                   android:layout_height="22dp"
+                   android:layout_gravity="center_vertical"
+                   android:layout_marginLeft="15dp"
+                   app:srcCompat="@drawable/mail"/>
+
+               <com.google.android.material.textfield.TextInputLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="5dp"
+                   style="@style/textInputStyle"
+                   android:textColorHint="#777"
+                   app:errorTextAppearance="@style/ErrorText"
+                   app:hintTextAppearance="@style/HintText"
+                   android:id="@+id/layoutvendorEmail"
+                   android:layout_marginRight="15dp"
+                   android:padding="5dp">
+
+                   <com.google.android.material.textfield.TextInputEditText
+                       android:layout_width="match_parent"
+                       android:textSize="14dp"
+                       android:hint="@string/reg_email"
+                       android:inputType="textEmailAddress"
+                       android:id="@+id/vendorEmail"
+                       android:textColor="#555"
+                       android:singleLine="true"
+                       style="@style/textInputStyle"
+                       android:maxLines="1"
+                       android:backgroundTint="@color/colorPrimary"
+                       android:textColorHint="#777"
+                       android:layout_height="wrap_content" />
+
+               </com.google.android.material.textfield.TextInputLayout>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="5dp"
+               android:orientation="horizontal">
+
+               <ImageView
+                   android:layout_width="20dp"
+                   android:layout_height="20dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_gravity="center_vertical"
+                   app:srcCompat="@drawable/phone"
+                   />
+
+               <com.google.android.material.textfield.TextInputLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="5dp"
+                   android:textColorHint="#777"
+                   android:id="@+id/layoutVendorphoneNumber"
+                   style="@style/textInputStyle"
+                   android:layout_marginRight="15dp"
+                   app:errorTextAppearance="@style/ErrorText"
+                   app:hintTextAppearance="@style/HintText"
+                   android:padding="5dp">
+
+                   <com.google.android.material.textfield.TextInputEditText
+                       android:layout_width="match_parent"
+                       android:textSize="14dp"
+                       android:hint="@string/for_mobile"
+                       android:id="@+id/VendorphoneNumber"
+                       android:backgroundTint="@color/colorPrimary"
+                       android:textColor="#555"
+                       android:textColorHint="#777"
+                       android:singleLine="true"
+                       android:maxLines="1"
+                       style="@style/textInputStyle"
+                       android:inputType="phone"
+                       android:maxLength="10"
+                       android:layout_height="wrap_content" />
+
+               </com.google.android.material.textfield.TextInputLayout>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="5dp"
+               android:orientation="horizontal">
+
+               <ImageView
+                   android:layout_width="22dp"
+                   android:layout_height="22dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_gravity="center_vertical"
+                   app:srcCompat="@drawable/password"
+                   />
+
+               <com.google.android.material.textfield.TextInputLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="5dp"
+                   android:textColorHint="#777"
+                   android:id="@+id/layoutVendorpassword"
+                   style="@style/textInputStyle"
+                   app:errorTextAppearance="@style/ErrorText"
+                   app:hintTextAppearance="@style/HintText"
+                   android:layout_marginRight="15dp"
+                   android:padding="5dp">
+
+                   <com.google.android.material.textfield.TextInputEditText
+                       android:layout_width="match_parent"
+                       android:textSize="14dp"
+                       android:hint="@string/reg_password"
+                       android:backgroundTint="@color/colorPrimary"
+                       android:id="@+id/Vendorpassword"
+                       android:textColor="#555"
+                       android:textColorHint="#777"
+                       android:singleLine="true"
+                       android:inputType="textPassword"
+                       style="@style/textInputStyle"
+                       android:maxLines="1"
+                       android:layout_height="wrap_content" />
+
+               </com.google.android.material.textfield.TextInputLayout>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="5dp"
+               android:orientation="horizontal">
+
+               <ImageView
+                   android:layout_width="22dp"
+                   android:layout_height="22dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_gravity="center_vertical"
+                   app:srcCompat="@drawable/confirm"
+                   />
+
+               <com.google.android.material.textfield.TextInputLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="5dp"
+                   android:textColorHint="#777"
+                   app:errorTextAppearance="@style/ErrorText"
+                   app:hintTextAppearance="@style/HintText"
+                   android:id="@+id/VendorConfPassword"
+                   android:layout_marginRight="15dp"
+                   style="@style/textInputStyle"
+                   android:padding="5dp">
+
+                   <EditText
+                       android:layout_width="match_parent"
+                       android:textSize="14dp"
+                       android:hint="@string/reg_confirm_pass"
+                       android:backgroundTint="@color/colorPrimary"
+                       android:textColor="#555"
+                       android:textColorHint="#777"
+                       android:singleLine="true"
+                       style="@style/textInputStyle"
+                       android:maxLines="1"
+                       android:inputType="textPassword"
+                       android:layout_height="wrap_content" />
+
+               </com.google.android.material.textfield.TextInputLayout>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="5dp"
+               android:orientation="horizontal">
+
+               <ImageView
+                   android:layout_width="25dp"
+                   android:layout_height="25dp"
+                   android:layout_marginLeft="15dp"
+                   android:layout_gravity="center_vertical"
+                   app:srcCompat="@drawable/address"/>
+
+               <com.google.android.material.textfield.TextInputLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="5dp"
+                   style="@style/textInputStyle"
+                   android:layout_marginBottom="25sp"
+                   android:textColorHint="#777"
+                   app:errorTextAppearance="@style/ErrorText"
+                   app:hintTextAppearance="@style/HintText"
+                   android:id="@+id/layoutvendor_address"
+                   android:layout_marginRight="15dp"
+                   android:padding="5dp">
+
+                   <com.google.android.material.textfield.TextInputEditText
+                       android:layout_width="match_parent"
+                       android:textSize="14dp"
+                       android:hint="@string/reg_address1"
+                       android:inputType="textEmailAddress"
+                       android:id="@+id/vendor_address"
+                       android:textColor="#555"
+                       android:singleLine="true"
+                       style="@style/textInputStyle"
+                       android:maxLines="1"
+                       android:backgroundTint="@color/colorPrimary"
+                       android:textColorHint="#777"
+                       android:layout_height="wrap_content" />
+
+               </com.google.android.material.textfield.TextInputLayout>
+
+           </LinearLayout>
+
+       </LinearLayout>
+   </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:gravity="center"
+        android:layout_margin="15dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn_save_vendor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="2sp"
+            android:layout_marginTop="2sp"
+            android:layout_marginEnd="2sp"
+            android:layout_marginBottom="2dp"
+            android:src="@drawable/ic_arrow_forward_black_24dp"
+            app:backgroundTint="@color/colorPrimaryDark"
+            app:rippleColor="@color/colorPrimaryDark" />
+
+        <!-- <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:layout_alignParentRight="true"
+             android:layout_centerInParent="true"
+             android:text="@string/reg_save_next"
+             android:padding="5sp"
+             android:textSize="15sp"
+             android:drawablePadding="3.5sp"
+             android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
+             android:textColor="#fff"
+             android:background="@drawable/registration_button"
+             android:textAllCaps="false"
+             android:id="@+id/btn_save_vendor" />
+-->
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

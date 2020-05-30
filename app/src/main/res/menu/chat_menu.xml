@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hrproject.Activities.Vendor.Messaging_Vendor_Activity">
+
+   <!-- <item tools:ignore="MenuTitle">-->
+<!--
+    <item android:title="@string/chat_refresh"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:id="@+id/vendor_chat_refresh"/>-->
+
+    <item android:title="@string/chat_menu"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:id="@+id/action_settings"/>
+
+    <item android:title="@string/chat_menu1"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:id="@+id/action_settings1"/>
+
+</menu>

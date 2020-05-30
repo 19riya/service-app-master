@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".Activities.user.VMapsActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout_map"
+        android:weightSum="10"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7.7"
+            tools:context=".Activities.Vendor.VMapsActivity" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.3"
+            android:background="#ffff"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5sp"
+                android:paddingBottom="5sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_pin_drop_black_24dp"
+                    android:drawablePadding="5sp"
+                    android:text="@string/map_heading"
+                    android:textSize="17sp"
+                    android:layout_marginLeft="4sp"
+                    android:textColor="#000"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:gravity="end"
+                    android:id="@+id/change_address"
+                    android:layout_marginRight="4sp"
+                    android:text="@string/map_change"
+                    android:textSize="17sp"
+                    android:textColor="#FF4500"/>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/vendor_location"
+                android:padding="7sp"
+                android:hint="@string/map_location"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:inputType="textMultiLine"
+                android:textSize="17sp"
+                android:textColor="#000"
+                android:background="#fff"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:id="@+id/confirm_address"
+                android:layout_marginTop="10sp"
+                android:text="@string/map_confirm"
+                android:background="#E65C29"
+                android:textColor="#fff"
+                android:layout_marginBottom="5sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

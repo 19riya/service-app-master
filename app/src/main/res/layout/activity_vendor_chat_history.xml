@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Vendor.VendorChatHistory">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:titleTextColor="@color/white"
+                android:id="@+id/vhistory_toolbar"
+                android:background="@color/colorPrimaryDark">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/vchat_toolbar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3sp"
+                        android:layout_marginRight="7sp"
+                        android:src="@drawable/ic_arrow_back_black_24dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chat with Udit"
+                        android:layout_toRightOf="@id/vchat_toolbar"
+                        android:layout_marginLeft="7dp"
+                        android:id="@+id/vchat_person"
+                        android:textColor="#fff"
+                        android:textSize="20sp"
+                        android:layout_gravity="center_vertical"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/vcall_booking"
+                        android:layout_marginRight="12sp"
+                        android:layout_marginLeft="7sp"
+                        android:layout_gravity="end"
+                        android:src="@drawable/ic_local_phone_black_24dp"/>
+
+
+                </RelativeLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".91"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:id="@+id/vchat_history"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No Chat History "
+                        android:visibility="gone"
+                        android:gravity="center_horizontal"
+                        android:textSize="25dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginTop="20sp"
+                        android:id="@+id/vno_history"/>
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2sp"
+            android:padding="2sp"
+            android:background="#ffff"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_weight=".8">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7sp"
+                    android:layout_marginRight="3sp"
+                    android:layout_marginTop="2sp"
+                    android:textSize="15sp"
+                    android:id="@+id/ven_write_msg"
+                    android:background="@drawable/write_text_background"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:paddingTop="13sp"
+                    android:paddingBottom="13sp"
+                    android:paddingLeft="7sp"
+                    android:hint="@string/chat_type_hint"
+                    android:backgroundTint="#F5F0F0"/>
+
+                <ImageView
+                    android:id="@+id/ven_select_camera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignTop="@id/ven_write_msg"
+                    android:layout_alignBottom="@id/ven_write_msg"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="19dp"
+                    android:src="@drawable/ic_camera_alt_black_24dp" />
+
+
+                <ImageView
+                    android:id="@+id/ven_select_file"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignTop="@id/ven_write_msg"
+                    android:layout_alignRight="@id/ven_select_camera"
+                    android:layout_alignBottom="@id/ven_write_msg"
+                    android:layout_marginRight="38dp"
+                    android:src="@drawable/ic_attachment_black_24dp" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_gravity="center"
+                android:id="@+id/ven_send_msg"
+                android:layout_marginLeft="2sp"
+                android:layout_marginRight="7sp"
+                android:padding="4sp"
+                android:background="@drawable/send_background"
+                android:src="@drawable/ic_send_white_24dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

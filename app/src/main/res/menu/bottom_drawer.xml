@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:checkableBehavior="all"
+        android:enabled="true"
+        android:menuCategory="system"/>
+
+    <item android:id="@+id/home"
+        android:title="@string/title_home"
+        android:icon="@drawable/ic_home_black_24dp"/>
+
+    <item android:id="@+id/my_bookings"
+        android:title="@string/booking_heading"
+        android:icon="@drawable/ic_content_paste_black_24dp"
+        />
+
+    <item android:id="@+id/my_notification"
+        android:title="@string/inbox_heading"
+        android:icon="@drawable/ic_inbox_black_24dp"
+        />
+
+    <item android:id="@+id/profile"
+        android:title="@string/title_profile"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        app:showAsAction="never"/>
+</menu>

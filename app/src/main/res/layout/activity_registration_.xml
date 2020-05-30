@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:animateLayoutChanges="true"
+    tools:context=".Activities.Registration_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tooluser_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000"
+            app:title="@string/user_reg_heading"
+            app:titleTextColor="#fff">
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp">
+
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/tabLayoutRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:tabIndicatorFullWidth="true"
+                    app:tabSelectedTextColor="#000"
+                    app:tabBackground="@drawable/tab_selector"
+                    app:tabPaddingEnd="20dp"
+                    app:tabPaddingStart="20dp"
+                    app:tabIndicatorHeight="2dp"
+                    app:tabTextColor="#fff">
+                </com.google.android.material.tabs.TabLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+      <!--  <com.google.android.material.tabs.TabLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="#ffff"
+            app:tabIndicatorHeight="3dp"
+            android:id="@+id/tabLayoutRegister"
+            app:tabIndicatorColor="#332F2F"
+            app:tabBackground="@drawable/tab_selector"
+            app:tabSelectedTextColor="#FF0000"
+            app:tabTextColor="#ffff"/>-->
+
+
+            <!--<androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewpagerRegister"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></androidx.viewpager.widget.ViewPager>
+-->
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/user_frame_registration"></FrameLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
